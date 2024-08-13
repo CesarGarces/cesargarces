@@ -1,6 +1,6 @@
 import { useState } from "react";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaWhatsapp } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa6";
 import "./App.css";
 import heroImage from "./assets/hero-background-top-mask.png";
 import video from "./assets/q-85a3b9fd.webm";
@@ -139,7 +139,6 @@ const App = () => {
           </div>
         </section>
 
-
         {/* Footer Section */}
         <footer className="footer">
           <h4>Desarrollo de Software César Garcés</h4>
@@ -147,11 +146,9 @@ const App = () => {
           <div className="social-buttons">
             <Button
               isIconOnly
-              onClick={() =>
-                window.open("https://www.facebook.com/cesar.garces/")
-              }
+              onClick={() => window.open("https://github.com/cesargarces")}
             >
-              <FaFacebook size={24} color="#fff" />
+              <FaGithub size={24} color="#fff" />
             </Button>
             <Button
               onClick={() =>
@@ -159,18 +156,6 @@ const App = () => {
               }
             >
               <FaLinkedin size={24} color="#fff" />
-            </Button>
-            <Button
-              onClick={() => window.open("https://twitter.com/cesar_garces")}
-            >
-              <FaTwitter size={24} color="#fff" />
-            </Button>
-            <Button
-              onClick={() =>
-                window.open("https://www.instagram.com/cesar_garces/")
-              }
-            >
-              <FaInstagram size={24} color="#fff" />
             </Button>
           </div>
         </footer>

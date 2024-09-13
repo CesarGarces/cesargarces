@@ -4,7 +4,7 @@ Welcome! I am a full stack developer with extensive experience in building high-
 
 ## Technologies and Tools
 
-- **Frontend**: React.js, Next.js, Redux, Zustand, React Hook Form, Styled Components
+- **Frontend**: React.js, Next.js, Redux, Zustand, React Hook Form, React Query, Styled Components
 - **Backend**: NestJS, Node.js, Express, REST APIs, GraphQL
 - **Databases**: PostgreSQL, MySQL, MongoDB
 - **DevOps and CI/CD**: Docker, AWS, Jenkins, GitLab CI, GitHub Actions
